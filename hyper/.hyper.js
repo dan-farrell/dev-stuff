@@ -67,7 +67,7 @@ module.exports = {
     showWindowControls: '',
 
     // custom padding (CSS format, i.e.: `top right bottom left`)
-    padding: '12px 14px',
+    padding: '12px 14px 20px 14px',
 
     // the full list. if you're going to provide the full color palette,
     // including the 6 x 6 color cubes and the grayscale map, just provide
@@ -139,12 +139,32 @@ module.exports = {
 
     // for advanced config flags please refer to https://hyper.is/#cfg
 
-    // MaterialTheme: {
-    //   theme: '',
-    //   backgroundOpacity: '0.1',
-    //   accentColor: '#64FFDA',
-    //   vibrancy: 'ultra-dark'
-    // }
+    // hostname
+    // ip
+    // memory
+    // Uptime
+    // cpu
+    // network
+    // battery
+    // Time
+    // Docker
+    // spotify
+    hyperline: {
+      plugins: [
+        'memory',
+        'ip',
+        'cpu',
+      ]
+    },
+
+    opacity: 0.9,
+
+    hyperWindowSize: {
+      width: 540,
+      height: 380,
+      startX: 50,
+      startY: 50
+    },
   },
 
   // a list of plugins to fetch and install from npm
@@ -153,7 +173,13 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: [],
+  plugins: [
+    'hyperline',
+    'hyperminimal',
+    'hyper-hide-scroll',
+    'hyper-opacity',
+    'hyper-window-size',
+  ],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
