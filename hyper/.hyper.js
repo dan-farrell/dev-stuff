@@ -101,9 +101,10 @@ module.exports = {
     // Bash on Windows
     // - Example: `C:\\Windows\\System32\\bash.exe`
     //
-    // PowerShell on Windows
-    // - Example: `C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe`
+    // For Windows
     shell: 'C:\\Program Files\\Git\\bin\\bash.exe',
+    // For Mac
+    // shell: '/bin/zsh',
 
     // for setting shell arguments (i.e. for using interactive shellArgs: `['-i']`)
     // by default `['--login']` will be used
