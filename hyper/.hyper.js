@@ -94,13 +94,6 @@ module.exports = {
     // the shell to run when spawning a new session (i.e. /usr/local/bin/fish)
     // if left empty, your system's login shell will be used by default
     //
-    // Windows
-    // - Make sure to use a full path if the binary name doesn't work
-    // - Remove `--login` in shellArgs
-    //
-    // Bash on Windows
-    // - Example: `C:\\Windows\\System32\\bash.exe`
-    //
     // For Windows
     shell: 'C:\\Program Files\\Git\\bin\\bash.exe',
     // For Mac
