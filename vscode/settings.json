@@ -88,16 +88,6 @@
     { "name": "Panda Red", "value": "#ff2c6d" }
   ],
 
-
-  // work
-
-  // code Sniffer
-  "phpcs.showSources": true,
-  "phpcs.standard": "C:/Users/Dan/phpcs-rules/ruleset.xml",
-  "phpcs.executablePath": "C:/Users/Dan/AppData/Roaming/Composer/vendor/bin/phpcs",
-  "phpcs.warningSeverity": 6,
-  "explorer.confirmDragAndDrop": false,
-
   // search excludes
   "files.exclude": {
     "**/.git": true,
