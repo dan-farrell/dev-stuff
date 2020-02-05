@@ -1,7 +1,6 @@
 {
-  // general
-
   // editor
+  "editor.acceptSuggestionOnEnter": "off",
   "editor.detectIndentation": false,
   "editor.fontFamily": "JetBrains Mono, Fira Mono, IBM Plex Mono, Fira Code, Inconsolata, 'Courier New', monospace",
   "editor.fontSize": 12,
@@ -22,14 +21,8 @@
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 4000,
   "files.eol": "\n",
+  "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
-
-  // git
-  "git.enableSmartCommit": true,
-  "git.confirmSync": false,
-
-  // privacy
-  "telemetry.enableTelemetry": false,
 
   // terminal
   "terminal.integrated.fontSize": 12,
@@ -43,6 +36,7 @@
 
   // workbench
   "workbench.colorTheme": "Monokai Seti",
+  "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.tabSizing": "shrink",
   "workbench.settings.editor": "json",
   "workbench.settings.useSplitJSON": true,
