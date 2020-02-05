@@ -3,9 +3,9 @@
 
   // editor
   "editor.detectIndentation": false,
-  "editor.fontFamily": "Fira Mono, IBM Plex Mono, Fira Code, Inconsolata, 'Courier New', monospace",
+  "editor.fontFamily": "JetBrains Mono, Fira Mono, IBM Plex Mono, Fira Code, Inconsolata, 'Courier New', monospace",
   "editor.fontSize": 12,
-  // "editor.fontLigatures": true,
+  "editor.fontLigatures": true,
   "editor.lineNumbers": "relative",
   "editor.minimap.renderCharacters": false,
   "editor.minimap.side": "right",
